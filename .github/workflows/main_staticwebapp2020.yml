@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'staticwebapp2020'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b3c5c4ec5aa54e6fb4c7cdf071d2bf0a }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_de83e95813734b2f978941afe93ff112 }}
         package: .
