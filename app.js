@@ -1,3 +1,4 @@
+var PORT= process.env.PORT || 3000
 var express=require('express');
 const app=express();
 var bodyparser=require("body-parser");
@@ -10,4 +11,4 @@ app.get('/',function(req,res){
     res.render('index');
 })
 
-app.listen(3000,console.log('Server Up'));
+app.listen(PORT,console.log('Server Up'));
